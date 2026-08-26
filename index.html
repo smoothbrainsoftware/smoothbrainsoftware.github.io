@@ -7,10 +7,58 @@
      <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hi, I'm C.S.!</h1>
-    <p>I do software dev stuff.</p>
-    <p>i primarily use the godot game engine but i also know python, HTML + CSS, and a little bit of java.</p>
-    <h4>here are some links:</h4>
-    <p>my github: <a href="https://github.com/smoothbrainsoftware"></a><br>my itch.io: <a href="https://smoothbraininteractive.itch.io"></a><br>my youtube: <a href="https://www.youtube.com/channel/UCcRyPsKTS8DPnG3LflQU_6g"></a></p>
+    <h1 class="title"><img src=profilepic.png alt="my profile picture" class="profilepic">  CSnerd</h1>
+    <h4 id="splash" class="splash"></h4>
+    <br>
+
+
+<div class="box">
+    <h2>I am a...</h2>
+    <h2>Software developer!</h2>
+    <p>I know GDscript, python, HTML + CSS, and a little Java.</p>
+    <h2>Musician!</h2>
+    <p>I play piano, guitar, and bass, and I'm familiar with music theory.</p>
+    <h2>Artist!</h2>
+    <p>I like to draw, and I can use blender (sort of).</p>
+</div>
+
+    <br>
+
+<div class="box">
+    <h2>Other stuff</h2>
+    <p>I'm open to collaborations, just DM me.</p>
+    <h3>here are some links:</h3>
+    <p>
+    <a href="https://github.com/smoothbrainsoftware">my github</a><br>
+    <a href="https://smoothbraininteractive.itch.io">my itch.io</a><br>
+    </p>
+</div>
+
+
+    <script>
+    const splashes = [
+    "I'm working very hard, trust me",
+    "top secret",
+    "What do I put here again?",
+    "How did YOU get here?!?",
+    "thx iostpa",
+    "thx trollmeight",
+    "I use arch BTW",
+    "Sprechen sie deutsch?",
+    "Hi!",
+    "Hello!",
+    "Have a good day!",
+    "Also try allancoding!",
+    "Soon™",
+    ";D",
+    ":)",
+    ":3",
+    "Waow so shiny",
+    "████ ██ datacenters"
+        
+    ];
+    document.getElementById('splash').textContent =
+    splashes[Math.floor(Math.random() * splashes.length)];
+</script>
 </body>
 </html>
