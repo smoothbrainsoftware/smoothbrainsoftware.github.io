@@ -1,0 +1,5 @@
+title: csnerd
+baseurl: ""
+url: "https://csnerd.is-not.cool"
+markdown: kramdown
+permalink: /blog/:title/
