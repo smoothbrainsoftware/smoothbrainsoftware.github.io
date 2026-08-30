@@ -4,10 +4,37 @@
     color: limegreen;
     text-shadow: 0 0 10px limegreen;
     font-weight: bold;
+    box-sizing: border-box;
+	scrollbar-color: limegreen #1a1a1a;
 }
+
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  z-index: 1000;
+}
+
+body {
+    padding-top: 60px;
+}
+
+.top-bar nav a {
+  text-decoration: none;
+  margin-left: 20px;
+}
+
 
 .box * {
 	background-color: transparent;
+    
 }
 
 .box {
