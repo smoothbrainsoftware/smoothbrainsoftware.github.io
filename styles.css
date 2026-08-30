@@ -22,6 +22,12 @@
   z-index: 1000;
 }
 
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
 body {
     padding-top: 60px;
 }
